@@ -3,7 +3,7 @@ $:.push File.expand_path("../lib", __FILE__)
 require "ruby-haml-js/version"
 
 Gem::Specification.new do |s|
-  s.name        = "ruby-haml-jsjs"
+  s.name        = "ruby-haml-js"
   s.version     = RubyHamlJs::Version::VERSION
   s.authors     = ["Mark Hayes", "Dmytrii Nagirniak"]
   s.email       = ["mhayes@repairpal.com", "dnagir@gmail.com"]
