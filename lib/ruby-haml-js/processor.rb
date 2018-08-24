@@ -9,7 +9,6 @@ module RubyHamlJs
     attr_reader :haml_source
 
     def self.call(input)
-      puts "DEBUG!!!"
       processor = new()
       processor.compile_to_function(input[:data])
     end
